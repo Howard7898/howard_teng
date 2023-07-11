@@ -1,3 +1,8 @@
+//performence of vehicle's simple ability
+//1) parking mode:SW1
+//distance between cars & HZ sensor& Relay>>OLED distance visualization, beep sound, brake
+//2) drivining mode:SW2
+//when car go into tunnel, turn on the light automatically(LED sensor)
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
